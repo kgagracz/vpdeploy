@@ -1,0 +1,98 @@
+.mask {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    z-index: -10;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#main-menu {
+    background-image: url('../img/menu/background.jpg');
+    min-height: 100vh;
+
+    
+    .__main-menu-wrapper {
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .__main-menu-item-wrapper {
+            display: flex;
+            justify-content: center;
+            width: 33%;
+            height: 250px;
+            margin: 10px 0;
+            .__main-menu-item {
+                border-radius: 50%;
+                background-color: gray;
+                height: 200px;
+                width: 200px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.2s;
+                cursor: pointer;
+                .__main-menu-item-heading {
+                    width: 100%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+            .__main-menu-item:hover {
+                height: 250px;
+                width: 250px;
+            }
+        }
+    }
+
+    // background images 
+    #pizza {
+        background-image: url("../img/menu/pizza2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #pork {
+        background-image: url("../img/menu/wieprzowina.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #chicken {
+        background-image: url("../img/menu/drob.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #pasta {
+        background-image: url("../img/menu/makaron.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #fish {
+        background-image: url("../img/menu/ryba.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #bar {
+        background-image: url("../img/menu/dania-barowe.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #snack {
+        background-image: url("../img/menu/przystawki.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #salad {
+        background-image: url("../img/menu/salatka.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #drink {
+        background-image: url("../img/menu/napoje.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}

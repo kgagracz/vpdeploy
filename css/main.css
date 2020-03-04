@@ -1,0 +1,212 @@
+.main-nav {
+  width: 100%;
+  font-size: 1.2rem; }
+  .main-nav .__nav-list {
+    background: #f3dcc0;
+    background: linear-gradient(90deg, #f3dcc0 30%, #402116 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 50px; }
+    .main-nav .__nav-list .__nav-list__li {
+      display: inline-block;
+      margin: 0 20px;
+      padding: 10px;
+      border-radius: 5px; }
+      .main-nav .__nav-list .__nav-list__li .__nav-list__li__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white; }
+    .main-nav .__nav-list .__nav-list__li:hover:not(.__nav-list__li--modifier) {
+      background-color: #5d0d0c; }
+    .main-nav .__nav-list .__nav-list__li--modifier {
+      margin: 0;
+      padding: 0; }
+
+#background {
+  background-image: url("../img/pizza.jpg");
+  background-position: center;
+  min-height: 70vh;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+  #background .container {
+    width: 60%;
+    margin: auto; }
+    #background .container .__background-heading,
+    #background .container .__background-heading2 {
+      color: white;
+      text-align: center;
+      margin: auto;
+      padding: 40px; }
+    #background .container .__background-heading {
+      font-size: 5rem; }
+
+.mask {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  z-index: -10;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+#main-menu {
+  background-image: url("../img/menu/background.jpg");
+  min-height: 100vh; }
+  #main-menu .__main-menu-wrapper {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    #main-menu .__main-menu-wrapper .__main-menu-item-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 33%;
+      height: 250px;
+      margin: 10px 0; }
+      #main-menu .__main-menu-wrapper .__main-menu-item-wrapper .__main-menu-item {
+        border-radius: 50%;
+        background-color: gray;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s;
+        cursor: pointer; }
+        #main-menu .__main-menu-wrapper .__main-menu-item-wrapper .__main-menu-item .__main-menu-item-heading {
+          width: 100%;
+          text-align: center;
+          text-transform: uppercase;
+          color: white; }
+      #main-menu .__main-menu-wrapper .__main-menu-item-wrapper .__main-menu-item:hover {
+        height: 250px;
+        width: 250px; }
+  #main-menu #pizza {
+    background-image: url("../img/menu/pizza2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #pork {
+    background-image: url("../img/menu/wieprzowina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #chicken {
+    background-image: url("../img/menu/drob.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #pasta {
+    background-image: url("../img/menu/makaron.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #fish {
+    background-image: url("../img/menu/ryba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #bar {
+    background-image: url("../img/menu/dania-barowe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #snack {
+    background-image: url("../img/menu/przystawki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #salad {
+    background-image: url("../img/menu/salatka.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #main-menu #drink {
+    background-image: url("../img/menu/napoje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.button-container {
+  height: 50px;
+  width: 100%;
+  background: #c69e93;
+  background: linear-gradient(225deg, #c69e93 0%, #5d0d0c 2%, #f3dccc 100%);
+  display: flex;
+  justify-content: flex-end; }
+  .button-container .button-icon-container {
+    width: 50px;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px; }
+  .button-container .button-icon-container:hover {
+    background-color: #f3dccc; }
+
+.menu-added {
+  z-index: -10;
+  opacity: 0;
+  position: absolute;
+  height: 70vh;
+  width: 70vh;
+  background-image: url("../img/menu/menu-background.jpg");
+  border-radius: 10px; }
+
+.main-footer {
+  background-color: #37c837; }
+
+.__main-footer-p {
+  text-align: center;
+  margin: 0; }
+
+#contact {
+  min-height: 100vh;
+  background-color: #f3dccc;
+  display: flex; }
+  #contact .aside {
+    height: 100vh; }
+  #contact .left-side {
+    width: 30%;
+    background-image: url("../img/aside.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px; }
+  #contact .right-side {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #contact .right-side .__aside-heading {
+      width: 100%;
+      margin-top: 150px;
+      text-align: center;
+      font-size: 3rem; }
+    #contact .right-side .container {
+      width: 70%;
+      display: flex;
+      align-items: center;
+      border: 1px solid black;
+      margin: 30px;
+      padding: 10px; }
+      #contact .right-side .container .__container-icons {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; }
+        #contact .right-side .container .__container-icons .icon-description {
+          display: block;
+          font-size: 1.4rem;
+          align-self: flex-start;
+          max-height: 100px;
+          margin: 0; }
+          #contact .right-side .container .__container-icons .icon-description a {
+            text-decoration: none;
+            color: black; }
+            #contact .right-side .container .__container-icons .icon-description a i {
+              align-self: flex-start;
+              padding: 5px;
+              font-size: 1.6rem; }
+        #contact .right-side .container .__container-icons .icon-description-modifier {
+          font-size: 3rem;
+          margin: 0;
+          align-self: center; }
+    #contact .right-side .__aside-map {
+      height: 300px;
+      width: 70%; }

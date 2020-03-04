@@ -1,0 +1,43 @@
+@import "variables";
+
+
+    .main-nav {
+        width: 100%;
+        font-size: 1.2rem;
+        .__nav-list {
+    
+            background: rgb(243,220,192);
+            background: linear-gradient(90deg, rgba(243,220,192,1) 30%, rgba(64,33,22,1) 99%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            height: 50px;
+    
+    
+            .__nav-list__li {
+                display: inline-block;
+                margin: 0 20px;
+                padding: 10px;
+                border-radius: 5px;
+
+                .__nav-list__li__link {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: white;
+                }
+                
+            }
+            .__nav-list__li:hover:not(.__nav-list__li--modifier) {
+                background-color: $secondary-color;
+            }
+            
+    
+            .__nav-list__li--modifier {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+

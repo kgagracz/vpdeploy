@@ -1,0 +1,77 @@
+@import 'variables';
+
+#contact {
+    min-height: 100vh;
+    background-color: $main-color;
+    display: flex;
+
+    .aside {
+        height: 100vh;
+    }
+
+    .left-side {
+        width: 30%;
+        background-image: url('../img/aside.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 50px;
+    }
+
+    .right-side {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .__aside-heading {
+            width: 100%;
+            margin-top: 150px;
+            text-align: center;
+            font-size: 3rem;
+        }
+        .container {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            margin: 30px;
+            padding: 10px;
+            .__container-icons {
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                .icon-description {
+                    display: block;
+                    font-size: 1.4rem;
+                    align-self: flex-start;
+                    max-height: 100px;
+                    margin: 0;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        i {
+                            align-self: flex-start;
+                            padding: 5px;
+                            font-size: 1.6rem;;
+                        }
+                    }
+
+                }
+                .icon-description-modifier {
+                    font-size: 3rem;
+                    margin: 0;
+                    align-self: center;
+                }
+                
+            }
+        }
+        
+        .__aside-map {
+            height: 300px;
+            width: 70%;
+        }
+    }
+
+}

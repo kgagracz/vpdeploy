@@ -1,0 +1,22 @@
+@import "variables";
+
+#background {
+    background-image: url("../img/pizza.jpg");
+    background-position: center;
+    min-height: 70vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    .container {
+        width: 60%;
+        margin: auto;
+        .__background-heading,
+        .__background-heading2 {
+            color: white;
+            text-align: center;
+            margin: auto;
+            padding: 40px;
+        }
+        .__background-heading {
+            font-size: 5rem;
+        }
+    }
+}

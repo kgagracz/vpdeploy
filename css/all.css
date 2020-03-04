@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Caveat'; }
+
+body {
+  margin: 0;
+  padding: 0; }

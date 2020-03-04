@@ -1,0 +1,33 @@
+@import "variables";
+
+.button-container {
+  height: 50px;
+  width: 100%;
+  background: rgb(198,158,147);
+  background: linear-gradient(225deg, rgba(198,158,147,1) 0%, rgba(93,13,12,1) 2%, rgba(243,220,204,1) 100%);
+  display: flex;
+  justify-content: flex-end;
+
+  .button-icon-container {
+    width: 50px;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button-icon-container:hover {
+    background-color: $main-color;
+  }
+}
+
+.menu-added {
+  z-index: -10;
+  opacity: 0;
+  position: absolute;
+  height: 70vh;
+  width: 70vh;
+  background-image: url('../img/menu/menu-background.jpg');
+  border-radius: $box-border-radius;
+}
